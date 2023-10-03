@@ -13,6 +13,10 @@ h1 {
     color: steelblue;
 }
 
+main {
+    max-width: 840px;
+}
+
 main img {
     width: 150px;
     height: auto;
@@ -21,21 +25,20 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 0;
-}
+p { padding: 0;}
 
 aside {
-    margin: 1em;
-    border: 5px solid rgba(0, 0, 0, 0.2);
-    padding: 1em;
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
 }
 
 aside img {
-    width: 500px;
+    width: 200px;
     height: auto;
 }
 
