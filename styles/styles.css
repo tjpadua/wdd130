@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -18,6 +24,8 @@ main {
 }
 
 main img {
+    /* you most likely will have other declarations here */
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -42,8 +50,24 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
