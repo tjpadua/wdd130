@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Young+Serif&display=swap');
+
+:root {
+    --primary-color: #0ADAFF;
+    --secondary-color: #52D7EB;
+    --accent1-color: #9AD4D6;
+    --accent2-color: #BCD7DC;
+
+    --heading-font: 'Young Serif', serif;
+    --paragraph-font: 'Open Sans', serif;
+
+    --nav-background-color: #0ADAFF;
+    --nav-link-color: #52D7EB;
+    --nav-hover-link-color: #9AD4D6;
+    --nav-hover-background-color: #BCD7DC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
