@@ -25,3 +25,53 @@ header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
+.hero{
+    position:relative;
+}
+.hero-title{
+    position: absolute;
+    top: 10px;
+    text-align: center;
+}
+#hero-img{
+    width: 100%;
+}
+.hero-article{
+    position:absolute;
+    top: 50px;
+    background-color: #fff;
+    margin: 0 20px;
+}
+
+.hero-article img{
+    width: 200px;
+    float:right;
+}
+
+.history-title {
+    text-align: center;
+}
+
+.history-paragraph {
+    text-align: justify;
+    margin: 10px;
+}
+
+nav {
+    position: absolute;
+    text-align: right;
+}
+
+.adventure-title {
+    text-align: center;
+}
+
+.adventure-title img{
+    width: 200px;
+    position: absolute;
+}
+
+.adventures {
+    width: 100px;
+    position: relative;
+}
