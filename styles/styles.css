@@ -27,6 +27,7 @@ main {
 
 main img {
     /* you most likely will have other declarations here */
+    
     float: right;
     margin: auto;
     width: 150px;
