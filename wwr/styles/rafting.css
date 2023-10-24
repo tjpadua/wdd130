@@ -107,8 +107,6 @@ nav {
     text-align: right;
 }
 
-
-
 .navigation li {
 	flex: 1 1 100%;
     text-align: right;
@@ -127,13 +125,11 @@ nav {
 	text-decoration: underline;
 }
 
-
 footer {
     margin-top: 1em;
     border: 1px solid #000;
     text-align: center;
 }
-
 
 .sociallinks {
     position: relative;
