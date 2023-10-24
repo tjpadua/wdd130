@@ -60,6 +60,7 @@ header {
 nav {
     position: absolute;
     text-align: right;
+    border-radius: 50%;
 }
 
 .adventure-title {
@@ -75,3 +76,4 @@ nav {
     width: 100px;
     position: relative;
 }
+
