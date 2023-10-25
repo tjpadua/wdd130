@@ -62,6 +62,8 @@ nav {
 
 .adventure-title {
     text-align: center;
+    position: relative;
+    margin-bottom: 100px;
 }
 
 .adventure-title img{
@@ -72,6 +74,7 @@ nav {
 .adventures {
     width: 100px;
     position: relative;
+    display: flex; flex-direction: row;
     
 }
 
