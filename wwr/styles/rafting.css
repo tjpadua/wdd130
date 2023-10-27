@@ -123,11 +123,13 @@ nav {
 	text-decoration: none;
 }
 
+
 .navigation a:hover {
 	color: tomato;
 	font-weight: 700;
 	text-decoration: underline;
 }
+
 
 footer {
     margin-top: 1em;
